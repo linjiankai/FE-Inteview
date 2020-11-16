@@ -2,7 +2,7 @@
 title: 首页
 hero:
   title: Inteview-Learn
-  desc: 面试的准备
+  desc: 面试的整理和学习
   actions:
     - text: 起飞
       link: /base
