@@ -11,3 +11,5 @@ group:
 ---
 
 # Promise
+
+[45道Promise面试题](https://juejin.im/post/6844904077537574919)

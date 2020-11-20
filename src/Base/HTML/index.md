@@ -11,6 +11,11 @@ group:
 # HTML
 
 ### html5的新特性
+- 本地存储特性
+- 设备兼容特性 HTML5提供了前所未有的数据与应用接入开放接口
+- 连接特性 WebSockets
+- 网页多媒体特性 支持Audio Video SVG Canvas WebGL CSS3
+- CSS3特性
 
 ---
 
