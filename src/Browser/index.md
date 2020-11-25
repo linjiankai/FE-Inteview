@@ -15,7 +15,7 @@ nav:
 
 ### 从输入网址到页面呈现的过程
 
-### 浏览器缓存分类
+### 浏览器缓存
 
 ### 重绘和重排(回流)的区别？如何优化？
 - 当页面中元素样式的改变并不影响它在文档流中的位置时（例如：color、background-color、visibility等），浏览器会将新样式赋予给元素并重新绘制它，这个过程称为重绘。
@@ -25,8 +25,6 @@ nav:
 Cookie、localStorage、sessionStorage
 
 ### 怎么判断浏览器是否支持webp， webp优点
-
-### 描述一下XSS和CSRF攻击，如何防范
 
 ### 浏览器白屏是什么导致的
 
@@ -43,3 +41,21 @@ Cookie、localStorage、sessionStorage
 ### 浏览器的事件机制有哪几个阶段？addEventListener的第三个参数起到什么作用
 
 ### cookie如何进行设置的，JS能改变哪些值
+
+### 谈谈v8引擎
+
+### 如何实现一个请求超时
+
+### 什么是CRP，即关键渲染路径(Critical Rendering Path)？ 如何优化
+
+### 浏览器如何验证服务器的身份
+
+### ETag首部字段说一下
+
+### 你们的token一般是存放在哪里的，token会不会被伪造？
+
+### redis中一般用来存什么
+
+### 前后端如何验证一个用户是否下线了
+
+### CSP白名单知道吗？
