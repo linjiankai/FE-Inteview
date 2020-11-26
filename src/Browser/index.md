@@ -11,7 +11,7 @@ nav:
 
 ### URL从输入网址到最终呈现的流程
 
-### EventLoop，浏览器 EventLoop 和 node 的 EventLoop 有什么区别
+### EventLoop，浏览器 EventLoop 和 node 的 EventLoop 有什么区别？哪些常见的宏任务微任务？
 
 ### 从输入网址到页面呈现的过程
 
@@ -50,8 +50,6 @@ Cookie、localStorage、sessionStorage
 
 ### 浏览器如何验证服务器的身份
 
-### ETag首部字段说一下
-
 ### 你们的token一般是存放在哪里的，token会不会被伪造？
 
 ### redis中一般用来存什么
@@ -59,3 +57,6 @@ Cookie、localStorage、sessionStorage
 ### 前后端如何验证一个用户是否下线了
 
 ### CSP白名单知道吗？
+
+### Script error出现的原因
+[跨域错误](https://www.alibabacloud.com/help/zh/doc-detail/88579.htm)

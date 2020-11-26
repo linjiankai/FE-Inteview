@@ -11,7 +11,7 @@ group:
 
 # webpack
 
-### Webpack更新原理
+### Webpack热更新的原理
 
 ### CodeSplit原理
 
@@ -42,5 +42,3 @@ group:
 ### webpack几种hash的实现原理
 
 ### splitChunksPlugin原理
-
-
