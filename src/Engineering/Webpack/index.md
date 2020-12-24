@@ -23,9 +23,11 @@ group:
 
 ### 单页面和多页面的区别
 
-### webpack的打包原理
+### webpack的模块打包原理
 
-### 说一些常用的loader和plugin
+### 说一些常用的loader
+
+### 说一些常用的plugin
 
 ### loader的执行顺序为什么是后写的先执行
 
