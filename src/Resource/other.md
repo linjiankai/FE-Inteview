@@ -1,12 +1,13 @@
 ---
-title: 其他日常
+title: 面试日常问答
+order: 3
 nav:
   title: 资源
   path: /resource
   order: 100
 ---
 
-# 其他日常
+# 日常问答
 
 这篇各人有各人想法
 

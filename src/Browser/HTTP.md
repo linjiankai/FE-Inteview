@@ -15,34 +15,14 @@ nav:
 
 ### HTTP的状态码
 「1xx」: 代表请求已被接受，需要继续处理。
-- 100 Continue，继续发请求
-- 101 Switching Protocols，切换协议
-  
 「2xx」: 表示成功状态。
-- 200 OK，正确请求并返回
-- 204 No content，请求成功，无返回
-- 206 Partial Content，服务器成功处理了部分GET请求
-
 「3xx」: 重定向状态。
-- 301 moved permanently，永久性重定向
-- 302 found，临时性重定向
-- 303 see other， 
-- 304 not modified，
-- 307 temporary redirect
-
 「4xx」: 客户端错误。
-- 400 bad request，客户端请求的语法错误，服务器无法理解
-- 401 unauthorized，
-- 403 forbidden，
-- 404 not found，在服务器上没有找到请求的资源
-- 405 Method Not Allowed，
-
 「5xx」: 服务器端错误。
-- 500 internal sever error，服务器执行请求发生错误
-- 502 Bad Gateway，
-- 503 service unavailable，
+[更多参考](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/HTTP_response_codes)
 
 ### HTTP的请求头包含什么
+
 
 ### WebSocket 和socket、HTTP的区别和联系
 [WebSocket 和socket、HTTP的区别和联系](https://www.cnblogs.com/aspirant/p/11334957.html)
@@ -84,4 +64,5 @@ nginx里面，是由Last-Modified和content-length的十六进制组合而成 �
 
 ### 为什么http1不能实现多路复用？
 http1阶段是基于文本传输的，由于没有流的概念，在使用并行传输（多路复用）传递数据时，接收端在接收到响应后，并不能区分多个响应分别对应的请求，所以无法将多个响应的结果重新进行组装，也就实现不了多路复用。
+
 
