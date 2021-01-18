@@ -32,6 +32,7 @@ group:
 ### loader的执行顺序为什么是后写的先执行
 
 ### webpack配置优化
+[3.4版本性能优化](https://juejin.cn/post/6844903651291447309)
 
 ### plugin与loader的区别
 

@@ -16,13 +16,13 @@ nav:
 - [i-want-offer](https://github.com/search?q=i-want-offer&type=users)
 - [FE-Interview-questions](https://github.com/search?q=FE-Interview-questions)
 - [fe-interview](https://github.com/haizlin/fe-interview)
+- [bold](https://github.com/forthealllight/blog)
 
 ### 面试相关的博主
 [掘金TianTianUp](https://juejin.im/user/2348212569517645/posts)
 [Chocolate](https://github.com/Chocolate1999/Front-end-learning-to-organize-notes/)
+[木易杨](https://github.com/yygmind/blog)
 
 ### 面经
 [19秋招面经](https://juejin.im/post/6844903657088122887)[续](https://juejin.im/post/6844903687752515597)
 [五月面经](https://juejin.im/post/6844904184135811086)
-
-

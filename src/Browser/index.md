@@ -10,6 +10,14 @@ nav:
 # 浏览器
 
 ### URL从输入网址到最终呈现的流程❤️
+1. 浏览器的地址栏输入URL并按下回车。
+2. 浏览器查找当前URL是否存在缓存，并比较缓存是否过期。
+3. DNS解析URL对应的IP。
+4. 根据IP建立TCP连接（三次握手）。
+5. HTTP发起请求。
+6. 服务器处理请求，浏览器接收HTTP响应。
+7. 渲染页面，构建DOM树。
+8. 关闭TCP连接（四次挥手）。
 
 ### EventLoop，浏览器 EventLoop 和 node 的 EventLoop 有什么区别？哪些常见的宏任务微任务？
 
@@ -95,3 +103,7 @@ Cookie、localStorage、sessionStorage
 ### 多域名重定向（301,302），对SEO有什么影响
 
 ### 谈谈Service worker的理解，应用
+
+### 请描述一下DNS解析的具体过程
+
+

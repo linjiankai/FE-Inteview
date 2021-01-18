@@ -10,7 +10,8 @@ nav:
 # node项目
 
 ### session 、cookie、token的区别
-### Resful api
+### RESTful概况下
+用URL定位资源，用HTTP描述操作
 ### node.js的异步操作
 ### 洋葱圈模型(koa)
 ### nodejs中的异步、非阻塞I/O是如何实现的？
