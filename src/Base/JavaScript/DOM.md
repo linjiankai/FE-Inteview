@@ -69,3 +69,5 @@ DOM0级模型，IE事件模型，DOM2级事件模型
   
 ### window的onload事件和domcontentloaded谁先谁后？
 
+### 请指出document load和document ready的区别
+ready：页面的文档结构加载完成，不包括图片视频等非文字内容。 load：所有页面元素都加载完成 ready的速度比load快

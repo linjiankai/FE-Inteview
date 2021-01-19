@@ -43,6 +43,17 @@ nav:
 
 ### 本地存储的方式，他们的区别
 Cookie、localStorage、sessionStorage
+区别： 
+- 数据存储大小
+cookie：4kb
+webStorge：5mb
+- 数据存储有效期限
+cookie：根据自己的设置时间
+sessionStorage：关闭窗口后失效
+localStorage：永久有效除非js删除或者浏览器删除
+- 作用域
+cookie和localStorage是在同源窗口，同一个浏览器共享的，sessionStorage只在同一个标签页共享。
+
 
 ### 怎么判断浏览器是否支持webp， webp优点
 

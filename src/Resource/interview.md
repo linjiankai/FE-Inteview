@@ -17,12 +17,14 @@ nav:
 - [FE-Interview-questions](https://github.com/search?q=FE-Interview-questions)
 - [fe-interview](https://github.com/haizlin/fe-interview)
 - [bold](https://github.com/forthealllight/blog)
+- [yck](https://github.com/KieSun/Dream)
 
 ### 面试相关的博主
-[掘金TianTianUp](https://juejin.im/user/2348212569517645/posts)
-[Chocolate](https://github.com/Chocolate1999/Front-end-learning-to-organize-notes/)
+[掘金TianTianUp](https://juejin.im/user/2348212569517645/posts)、
+[Chocolate](https://github.com/Chocolate1999/Front-end-learning-to-organize-notes/)、
 [木易杨](https://github.com/yygmind/blog)
+[前端劝退师](https://juejin.cn/user/3245414024218333)[github](https://github.com/roger-hiro/BlogFN)
 
 ### 面经
-[19秋招面经](https://juejin.im/post/6844903657088122887)[续](https://juejin.im/post/6844903687752515597)
-[五月面经](https://juejin.im/post/6844904184135811086)
+- [19秋招面经](https://juejin.im/post/6844903657088122887)[续](https://juejin.im/post/6844903687752515597)
+- [五月面经](https://juejin.im/post/6844904184135811086)9
