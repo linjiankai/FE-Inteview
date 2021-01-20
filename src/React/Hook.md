@@ -10,7 +10,7 @@ nav:
 
 ### React Hook 实现原理
 
-### React hooks的优缺点
+### React hooks的优缺点，对比高阶组件和Class组件❤️
 
 ### useEffect里面使用定时器出现一个闭包问题
 

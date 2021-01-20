@@ -23,13 +23,13 @@ nav:
 
 ### watch 和 computed 区别，运用的场景？
 
-### 组件间通讯方法
+### 组件之间通信方式❤️
 
 ### vue父子组件生命周期执行顺序
 
 ### diff算法，虚拟dom
 
-### 双向绑定的原理
+### 双向数据绑定的原理
 
 ### Class 与 Style 如何动态绑定？
 
@@ -41,6 +41,16 @@ nav:
 [参考](https://juejin.cn/post/6844903648057622536)
 
 ### vue的生命周期的理解
+- beforeCreate（初始化界面前）
+- created（初始化界面后）
+- beforeMount（渲染dom前）
+- mounted（渲染dom后）
+- beforeUpdate（更新数据前）
+- updated（更新数据后）
+- beforeDestroy（卸载组件前）
+- destroyed（卸载组件后）
+
+[参考](https://juejin.cn/post/6844903780736040973)
 
 ### vue懒加载
 
@@ -48,5 +58,12 @@ nav:
 
 ### keep-alive
 
+### vue响应式数据的实现原理
+[参考](https://juejin.cn/post/6844903760771153933)
 
+### vue template编译
+
+### vuex
+
+### vue-router中hash模式和history模式的区别
 

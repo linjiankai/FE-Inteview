@@ -33,7 +33,7 @@ nav:
 
 ### http2 和http1 区别
 
-### http2 有新哪些特性
+### http2 有新哪些特性🧡
 - 头部压缩 (HPACK算法)
 - 多路复用
 - 服务器推送 (允许服务器未经请求，主动向客户端发送资源)
@@ -57,7 +57,7 @@ nav:
 
 ### https协议的优缺点
 
-### http和https的区别，https为什么更安全？
+### http和https的区别，https为什么更安全？❤️
 
 ### 说说 TCP 三次握手和四次挥手的过程
 
@@ -66,6 +66,7 @@ nav:
 ### http请求可以怎么拦截
 
 ### GET 和 POST 的区别
+
 
 ### 在项目中如何把http的请求换成https
 
@@ -79,6 +80,9 @@ http1阶段是基于文本传输的，由于没有流的概念，在使用并行
 发送post请求使用OPTIONS方法，进行预检请求，询问服务端是否允许该跨源请求，然后在允许(204)的情况发送真正的请求
 [跨源资源共享(cros)](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
 
+### 为什么cros能解决跨域？
+和第一次发送的option请求有关；
+跨域时，浏览器会拦截Ajax请求，并在http头中加Origin。
 
 
 

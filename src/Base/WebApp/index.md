@@ -17,6 +17,7 @@ group:
 [参考1](https://juejin.cn/post/6844903613320396808#heading-8)
 [参考2](https://github.com/forthealllight/blog/issues/13)
 [参考3](https://juejin.cn/post/6844903651245293582#heading-25)
+[参考4](https://juejin.cn/post/6844903845617729549)
 ### 1px 
 - 0.5px
 - border-image
@@ -50,4 +51,8 @@ group:
 ```
 6. ios下取消input在输入的时候英文首字母的默认大写：`<input autocapitalize="off" autocorrect="off" />`
 7. ios下yyyy-mm-dd hh:mm:ss格式日期不能转化：`replace(/-/g, "/")`转成yyyy/mm/dd hh:mm:ss格式
-8. 
+
+### rem原理
+- rem布局的本质是等比缩放，一般是基于宽度，假设将屏幕宽度分为100份，每份宽度是1rem，1rem的宽度是屏幕宽度/100,，然后子元素设置rem单位的属性，
+- 通过改变html元素的字体大小，就可以设置子元素的实际大小。
+
