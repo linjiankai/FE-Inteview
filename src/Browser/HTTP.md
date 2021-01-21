@@ -23,7 +23,6 @@ nav:
 
 ### HTTP的请求头包含什么
 
-
 ### WebSocket 和socket、HTTP的区别和联系
 [WebSocket 和socket、HTTP的区别和联系](https://www.cnblogs.com/aspirant/p/11334957.html)
 
@@ -44,6 +43,7 @@ nav:
 多路复用（MultiPlexing），即连接共享，即每一个request都是是用作连接共享机制的。一个request对应一个id，这样一个连接上可以有多个request，每个连接的request可以随机的混杂在一起，接收方可以根据request的 id将request再归属到各自不同的服务端请求里面。
 
 ### http 握手原理
+[参考](https://juejin.cn/post/6844904132071948295)
 
 ### HTTP中的Keep-Alive有了解过吗？
 
@@ -76,13 +76,16 @@ nginx里面，是由Last-Modified和content-length的十六进制组合而成 �
 ### 为什么http1不能实现多路复用？
 http1阶段是基于文本传输的，由于没有流的概念，在使用并行传输（多路复用）传递数据时，接收端在接收到响应后，并不能区分多个响应分别对应的请求，所以无法将多个响应的结果重新进行组装，也就实现不了多路复用。
 
-### fetch发送跨域post请求，出现2个请求，原因？解决方法？
+### fetch发送跨域post请求，出现2个请求，原因？解决方法？(需要深入研究)
 发送post请求使用OPTIONS方法，进行预检请求，询问服务端是否允许该跨源请求，然后在允许(204)的情况发送真正的请求
 [跨源资源共享(cros)](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)
 
 ### 为什么cros能解决跨域？
 和第一次发送的option请求有关；
 跨域时，浏览器会拦截Ajax请求，并在http头中加Origin。
+
+
+### 304状态码，通过什么来判断是否用缓存
 
 
 

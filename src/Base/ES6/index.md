@@ -15,6 +15,7 @@ group:
 [参考2](https://juejin.cn/post/6844903726168145933)
 [参考3](https://juejin.cn/post/6844903775329583112)
 [参考4](https://juejin.cn/post/6844903811622912014)
+[参考5](https://juejin.cn/post/6844904023787569159)
 
 ### Set和Map区别
 - Set 是一种叫做集合的数据结构(类似于数组)，Map 是一种叫做字典的数据结构(类似于['key': value])。
@@ -49,10 +50,22 @@ group:
 
 ### 使用Proxy实现简单的数据绑定
 
-### 扩展运算符...
+### 扩展运算符... 和用途
+- 克隆数组/对象
 
-### ### for of 和 for in区别❤️
+- 将类数组结构转换为数组
+
+- 延展操作符作为参数
+
+- 将元素添加到数组/对象
+
+- 合并数组/对象
+
+### for of 和 for in区别❤️
 [参考](https://www.jianshu.com/p/c43f418d6bf0)
+
+### Proxy 相比于 Object.defineProperty() 的优势
+
 
 
 

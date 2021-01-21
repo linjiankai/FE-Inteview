@@ -8,6 +8,7 @@ nav:
 ---
 
 # 浏览器
+[参考](https://juejin.cn/post/6844904040346681358)
 
 ### URL从输入网址到最终呈现的流程❤️
 1. 浏览器的地址栏输入URL并按下回车。
@@ -53,7 +54,6 @@ sessionStorage：关闭窗口后失效
 localStorage：永久有效除非js删除或者浏览器删除
 - 作用域
 cookie和localStorage是在同源窗口，同一个浏览器共享的，sessionStorage只在同一个标签页共享。
-
 
 ### 怎么判断浏览器是否支持webp， webp优点
 
@@ -114,6 +114,7 @@ cookie和localStorage是在同源窗口，同一个浏览器共享的，sessionS
 ### 多域名重定向（301,302），对SEO有什么影响
 
 ### 谈谈Service worker的理解，应用
+[参考](https://juejin.cn/post/6844904082721767431)
 
 ### 请描述一下DNS解析的具体过程
 

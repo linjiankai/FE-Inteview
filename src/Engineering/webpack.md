@@ -8,6 +8,8 @@ nav:
 ---
 
 # webpack
+[参考](https://juejin.cn/post/6844904007362674701)
+[参考](https://juejin.cn/post/6844904094281236487)
 
 ### Webpack热更新的原理
 

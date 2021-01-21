@@ -1,27 +1,15 @@
 # interview-learn
 
-## Getting Started
+❤️代表必学的高频面试题
 
-Install dependencies,
+🧡代表建议学习的面试题
 
-```bash
-$ npm i
-```
+💚代表需要理解的面试题
 
-Start the dev server,
+### tips: 
+带参考的链接需要自己研究完，对比学习使用。
 
-```bash
-$ npm start
-```
+资源里面的博主和文章，可以多借鉴学习
 
-Build documentation,
+重难点的知识点需要单独开了博客，进行写文章
 
-```bash
-$ npm run docs:build
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
-```

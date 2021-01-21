@@ -8,6 +8,7 @@ nav:
 ---
 
 # Vue
+[参考](https://juejin.cn/post/6844903918753808398)
 
 ### vue内部运行机制
 
@@ -18,10 +19,13 @@ nav:
 ### vue进入一个页面出现字体抖动，如何处理
 
 ### nextTick 原理
+[参考](https://juejin.cn/post/6844903843197616136)
 
 ### Vue render函数如何渲染页面`
 
 ### watch 和 computed 区别，运用的场景？
+- 当页面中有某些数据依赖其他数据进行变动的时候，可以使用计算属性computed
+- watch用于观察和监听页面上的vue实例，如果要在数据变化的同时进行异步操作或者是比较大的开销，那么watch为最佳选择
 
 ### 组件之间通信方式❤️
 
@@ -55,6 +59,9 @@ nav:
 ### vue懒加载
 
 ### vue-router 有哪几种导航钩子?
+- 全局守卫
+- 路由独享守卫
+- 路由组件内的守卫
 
 ### keep-alive
 
@@ -66,4 +73,15 @@ nav:
 ### vuex
 
 ### vue-router中hash模式和history模式的区别
+
+### style scoped属性作用和原理，样式穿透
+
+### ref的作用
+- 获取dom元素 `this.$refs.box`
+- 获取子组件中的data `this.$refs.box.msg`
+- 调用子组件中的方法 `this.$refs.box.open()`
+
+### 组件中 data 为什么是一个函数？
+
+
 

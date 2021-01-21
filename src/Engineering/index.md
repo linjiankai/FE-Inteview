@@ -10,6 +10,7 @@ nav:
 # 前端工程化
 [大型项目前端架构浅谈](https://juejin.cn/post/6844903853859536903)
 [个人的中小型项目前端架构浅谈](https://blog.csdn.net/qq20004604/article/details/70480932)
+[参考](https://github.com/shfshanyue/blog/tree/master/frontend-engineering/)
 
 ### package.json和package-lock.json区别
 
