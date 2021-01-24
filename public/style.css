@@ -10,10 +10,11 @@
 
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
-  background: #535353;
+  background: #ccc;
 }
 
 ::-webkit-scrollbar-track {
   border-radius: 4px;
   background: #ededed;
 }
+

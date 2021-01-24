@@ -8,18 +8,19 @@ nav:
 ---
 
 # 前端工程化
+
 [大型项目前端架构浅谈](https://juejin.cn/post/6844903853859536903)
 [个人的中小型项目前端架构浅谈](https://blog.csdn.net/qq20004604/article/details/70480932)
 [参考](https://github.com/shfshanyue/blog/tree/master/frontend-engineering/)
 
-### package.json和package-lock.json区别
+### package.json 和 package-lock.json 区别
 
-### npm发布版本号
+### npm 发布版本号
 
-### 使用过代理工具吗（Charles或者Fiddle） 
+### 使用过代理工具吗（Charles 或者 Fiddle）
 
-### Git是怎样生成diff的：Myers算法 
+### Git 是怎样生成 diff 的：Myers 算法
+
 [链接](https://segmentfault.com/p/1210000009610313/read)
 
-### nginx有配置过吗？反向代理知道吗？
-
+### nginx 有配置过吗？反向代理知道吗？
