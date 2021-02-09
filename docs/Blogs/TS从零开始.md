@@ -1,6 +1,7 @@
 ---
 title: TS从零开始
 hide: true
+order: 1
 ---
 
 # TS从零开始
@@ -297,6 +298,12 @@ function identity <T, U>(value: T, message: U) : T {
 }
 console.log(identity<Number, string>(68, "Semlinker")); 
 ```
+//箭头函数的泛型写法(2种)
+```ts
+const Generic = <T extends unknown>(value: T) => <U,>(name: U) => {
+    return value;
+} 
+```
 #### 常见泛型变量
 - K（Key）：表示对象中的键类型；
 - V（Value）：表示对象中的值类型；
@@ -325,11 +332,114 @@ let myGenericNumber = new GenericNumber<number>();
 myGenericNumber.zeroValue = 0;
 myGenericNumber.add = function(x, y) { return x + y; };
 console.log(myGenericNumber.add(myGenericNumber.zeroValue, "test"));
-
 ```
 泛型约束使用extends实现
 
 ## 高级类型
 ### 交叉类型
+将多个类型合并为一个类型, 使用`&`运算符
+```ts
+type PartialPointX = { x: number; };
+type Point = PartialPointX & { y: number; };
 
+let point: Point = {
+  x: 1,
+  y: 1
+}
+```
+同名基础类型属性的合并
+```ts
+interface X {
+  c: string;
+  d: string;
+}
+
+interface Y {
+  c: number;
+  e: string
+}
+type XY = X & Y;
+
+let p: XY = { c: 6, d: "d", e: "e" } //Type 'number' is not assignable to type 'never'. 
+//c既是string又是number不存在的，自动转为never
+```
+同名非基础类型属性的合并
+```ts
+interface A { x: {d: number} }
+interface B { x: {e: string} }
+type AB = A & B;
+let ab: AB = {
+  x: {
+    d: 12,
+    e: 'semlinker',
+  }
+}; //存在相同的成员，且成员类型为非基本数据类型, 是可以合并的
+```
 ### 联合类型
+多个类型的并集，使用`&`运算符，通常与null或undefined一起使用
+```ts
+const sayHello = (name: string | undefined) => { return name};
+sayHello("semlinker");
+sayHello(undefined);
+```
+## 类型保护
+类型保护是可执行运行时检查的一种表达式，用于确保该类型在一定的范围内
+### in关键字
+in 操作符可以安全的检查一个对象上是否存在一个属性
+```ts
+interface A {
+  x: number;
+}
+
+interface B {
+  y: string;
+}
+
+function doStuff(q: A | B) {
+  if ('x' in q) {
+    // q: A
+  } else {
+    // q: B
+  }
+}
+```
+### typeof 关键字
+```ts
+function padLeft(value: string, padding: string | number) {
+    if (typeof padding === "number") {
+        return Array(padding + 1).join(" ") + value;
+    }
+    if (typeof padding === "string") {
+        return padding + value;
+    }
+    throw new Error(`Expected string or number, got '${padding}'.`);
+}
+padLeft('1', 2) //"  1" 
+padLeft('1', '3') //"31"
+```
+### instanceof 关键字
+```ts
+class Foo {
+  foo = 123;
+  common = '123';
+}
+
+class Bar {
+  bar = 123;
+  common = '123';
+}
+
+function doStuff(arg: Foo | Bar) {
+  if (arg instanceof Foo) {
+    console.log(arg.foo); // ok
+    console.log(arg.bar); // Error
+  }else{
+    console.log(arg.foo); // Error
+    console.log(arg.bar); // ok
+  }
+}
+
+doStuff(new Foo());
+doStuff(new Bar());
+```
+### 自定义类型保护
