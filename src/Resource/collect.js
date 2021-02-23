@@ -47,6 +47,23 @@ const collect = [
         ],
     },
     {
+        title: '多端开发解决方案',
+        child: [
+            {
+                name: 'Taro',
+                icon: 'taro.ico',
+                desc: '京东多端统一开发解决方案',
+                url: 'https://taro.aotu.io/',
+            },
+            {
+                name: 'uni-app',
+                icon: 'uni-app.png',
+                desc: '使用Vue.js开发所有前端应用的框架',
+                url: 'https://uniapp.dcloud.io/',
+            },
+        ],
+    },
+    {
         title: '后台模板',
         child: [
             {
