@@ -14,7 +14,6 @@ group:
 
 
 ### 适配方案 ❤️
-
 - rem + lib-flexible
 - postcss + vw
   [参考 1](https://juejin.cn/post/6844903613320396808#heading-8)
@@ -55,7 +54,6 @@ window.one('touchstart', function() {
   video.play();
 });
 ```
-
 6. ios 下取消 input 在输入的时候英文首字母的默认大写：`<input autocapitalize="off" autocorrect="off" />`
 7. ios 下 yyyy-mm-dd hh:mm:ss 格式日期不能转化：`replace(/-/g, "/")`转成 yyyy/mm/dd hh:mm:ss 格式
 
