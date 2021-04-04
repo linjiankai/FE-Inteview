@@ -38,5 +38,3 @@ group:
 Composition API 与 React Hook 很像
 
 ### Vue3.0 是如何实现代码逻辑复用的？
-
-### SSR 有了解吗？原理是什么？

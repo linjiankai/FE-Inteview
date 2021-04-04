@@ -2,9 +2,9 @@
 title: 浏览器
 order: 1
 nav:
-  title: 浏览器
-  path: /browser
-  order: 6
+    title: 浏览器
+    path: /browser
+    order: 6
 ---
 
 # 浏览器
@@ -26,12 +26,12 @@ nav:
 
 ### 浏览器渲染原理与过程
 
-- 使用 HTML 创建文档对象模型（DOM）
-- 使用 CSS 创建 CSS 对象模型（CSSOM）
-- 基于 DOM 和 CSSOM 执行脚本（Scripts）
-- 合并 DOM 和 CSSOM 形成渲染树（Render Tree）
-- 使用渲染树布局（Layout）所有元素
-- 渲染（Paint）所有元素
+-   使用 HTML 创建文档对象模型（DOM）
+-   使用 CSS 创建 CSS 对象模型（CSSOM）
+-   基于 DOM 和 CSSOM 执行脚本（Scripts）
+-   合并 DOM 和 CSSOM 形成渲染树（Render Tree）
+-   使用渲染树布局（Layout）所有元素
+-   渲染（Paint）所有元素
 
 [关键渲染路径](https://mp.weixin.qq.com/s?__biz=MzA5NzkwNDk3MQ==&mid=2650588806&idx=1&sn=408a54e7c8102fd6944c9a40b119015a&scene=21#wechat_redirect)
 
@@ -43,8 +43,8 @@ nav:
 
 ### 重绘和重排(回流)的区别
 
-- 当页面中元素样式的改变并不影 响它在文档流中的位置时（例如：color、background-color、visibility 等），浏览器会将新样式赋予给元素并重新绘制它，这个过程称为重绘。
-- 当 Render Tree 中部分或全部元素的尺寸、结构、或某些属性发生改变时，浏览器重新渲染部分或全部文档的过程称为回流
+-   当页面中元素样式的改变并不影响它在文档流中的位置时（例如：color、background-color、visibility 等），浏览器会将新样式赋予给元素并重新绘制它，这个过程称为重绘。
+-   当 Render Tree 中部分或全部元素的尺寸、结构、或某些属性发生改变时，浏览器重新渲染部分或全部文档的过程称为回流
 
 ### 如何减少重绘和回流的次数(优化)
 
@@ -55,15 +55,15 @@ nav:
 Cookie、localStorage、sessionStorage
 区别：
 
-- 数据存储大小
-  cookie：4kb
-  webStorge：5mb
-- 数据存储有效期限
-  cookie：根据自己的设置时间
-  sessionStorage：关闭窗口后失效
-  localStorage：永久有效除非 js 删除或者浏览器删除
-- 作用域
-  cookie 和 localStorage 是在同源窗口，同一个浏览器共享的，sessionStorage 只在同一个标签页共享。
+-   数据存储大小
+    cookie：4kb
+    webStorge：5mb
+-   数据存储有效期限
+    cookie：根据自己的设置时间
+    sessionStorage：关闭窗口后失效
+    localStorage：永久有效除非 js 删除或者浏览器删除
+-   作用域
+    cookie 和 localStorage 是在同源窗口，同一个浏览器共享的，sessionStorage 只在同一个标签页共享。
 
 ### 怎么判断浏览器是否支持 webp， webp 优点
 
@@ -109,21 +109,21 @@ dns 预解析
 
 ### 浏览器跨标签页的通讯方式
 
-- BroadCast Channel
-- Service Worker
-- LocalStorage + window.onstorage 监听
-- Shared Worker + 定时器轮询(setInterval)
-- IndexedDB + 定时器轮询(setInterval)
-- cookie + 定时器轮询(setInterval)
-- window.open + window.postMessage
-- Websocket
+-   BroadCast Channel
+-   Service Worker
+-   LocalStorage + window.onstorage 监听
+-   Shared Worker + 定时器轮询(setInterval)
+-   IndexedDB + 定时器轮询(setInterval)
+-   cookie + 定时器轮询(setInterval)
+-   window.open + window.postMessage
+-   Websocket
 
 ### 常见的浏览器内核
 
-- Trident 内核：IE,MaxThon,TT,The World,360,搜狗浏览器等。[又称 MSHTML]
-- Gecko 内核：Netscape6 及以上版本，FF,MozillaSuite/SeaMonkey 等
-- Presto 内核：Opera7 及以上。 [Opera 内核原为：Presto，现为：Blink;]
-- Webkit 内核：Safari,Chrome 等。 [ Chrome 的：Blink（WebKit 的分支）]
+-   Trident 内核：IE,MaxThon,TT,The World,360,搜狗浏览器等。[又称 MSHTML]
+-   Gecko 内核：Netscape6 及以上版本，FF,MozillaSuite/SeaMonkey 等
+-   Presto 内核：Opera7 及以上。 [Opera 内核原为：Presto，现为：Blink;]
+-   Webkit 内核：Safari,Chrome 等。 [ Chrome 的：Blink（WebKit 的分支）]
 
 ### 浏览器是怎样解析 CSS 的
 

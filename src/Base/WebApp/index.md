@@ -1,36 +1,38 @@
 ---
 title: 常见问题
 nav:
-  title: Base
-  path: /base
+    title: Base
+    path: /base
 group:
-  title: 移动端
-  path: /webapp
-  order: 4
+    title: 移动端
+    path: /webapp
+    order: 4
 ---
 
 # WebApp
 
+### meta viewport 的原理
+
 ### 适配方案 ❤️
 
-- rem + lib-flexible
-- postcss + vw
-  [参考 1](https://juejin.cn/post/6844903613320396808#heading-8)
-  [参考 2](https://github.com/forthealllight/blog/issues/13)
-  [参考 3](https://juejin.cn/post/6844903651245293582#heading-25)
-  [参考 4](https://juejin.cn/post/6844903845617729549)
-  [参考 5](https://juejin.cn/post/6885721051360133133)
+-   rem + lib-flexible
+-   postcss + vw
+    [参考 1](https://juejin.cn/post/6844903613320396808#heading-8)
+    [参考 2](https://github.com/forthealllight/blog/issues/13)
+    [参考 3](https://juejin.cn/post/6844903651245293582#heading-25)
+    [参考 4](https://juejin.cn/post/6844903845617729549)
+    [参考 5](https://juejin.cn/post/6885721051360133133)
 
 ### 1px
 
-- 0.5px
-- border-image
-- transform: scale()
+-   0.5px
+-   border-image
+-   transform: scale()
 
 ### 点击延迟 300ms
 
-- `<meta name="viewport" content="width=device-width, user-scalable=no">`
-- FastClick
+-   `<meta name="viewport" content="width=device-width, user-scalable=no">`
+-   FastClick
 
 ### 移动端软键盘弹出，页面上移，软键盘收回，ios 有留白
 
@@ -56,7 +58,7 @@ group:
 
 ```js
 window.one('touchstart', function() {
-  video.play();
+    video.play();
 });
 ```
 
@@ -65,5 +67,5 @@ window.one('touchstart', function() {
 
 ### rem 原理
 
-- rem 布局的本质是等比缩放，一般是基于宽度，假设将屏幕宽度分为 100 份，每份宽度是 1rem，1rem 的宽度是屏幕宽度/100,，然后子元素设置 rem 单位的属性，
-- 通过改变 html 元素的字体大小，就可以设置子元素的实际大小。
+-   rem 布局的本质是等比缩放，一般是基于宽度，假设将屏幕宽度分为 100 份，每份宽度是 1rem，1rem 的宽度是屏幕宽度/100,，然后子元素设置 rem 单位的属性，
+-   通过改变 html 元素的字体大小，就可以设置子元素的实际大小。
