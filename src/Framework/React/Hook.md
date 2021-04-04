@@ -1,13 +1,13 @@
 ---
 title: Hook
 nav:
-  title: Framework
-  path: /famework
-  order: 3
+    title: Framework
+    path: /framework
+    order: 3
 group:
-  title: React
-  path: /react
-  order: 2
+    title: React
+    path: /react
+    order: 2
 ---
 
 # Hook

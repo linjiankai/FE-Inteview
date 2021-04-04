@@ -2,13 +2,13 @@
 title: DOM
 order: 5
 nav:
-  title: Main
-  path: /main
-  order: 2
+    title: Main
+    path: /main
+    order: 2
 group:
-  title: JavaScript
-  path: /javascript
-  order: 2
+    title: JavaScript
+    path: /javascript
+    order: 2
 ---
 
 # DOM
@@ -37,8 +37,8 @@ DOM0 级模型，IE 事件模型，DOM2 级事件模型
 
 ### #事件捕获和事件冒泡
 
-- 先捕获：window----> document----> html----> body ---->目标元素
-- 在冒泡：当前元素---->body ----> html---->document ---->window
+-   先捕获：window----> document----> html----> body ---->目标元素
+-   在冒泡：当前元素---->body ----> html---->document ---->window
 
 ---
 
@@ -54,25 +54,25 @@ DOM0 级模型，IE 事件模型，DOM2 级事件模型
 
 ### DOMContentLoad 和 Load 和 Finish 的区别
 
-- DOMContentLoaded：DOM 树构建完成。即 HTML 页面由上向下解析 HTML 结构到末尾封闭标签`</html>`
-- Load：页面加载完毕。 DOM 树构建完成后，继续加载 html/css 中的图片资源等外部资源，加载完成后视为页面加载完毕。
-- DOMContentLoaded 会比 Load 时间小，两者时间差大致等于外部资源加载的时间。
-- Finish：是页面上所有 http 请求发送到响应完成的时间
+-   DOMContentLoaded：DOM 树构建完成。即 HTML 页面由上向下解析 HTML 结构到末尾封闭标签`</html>`
+-   Load：页面加载完毕。 DOM 树构建完成后，继续加载 html/css 中的图片资源等外部资源，加载完成后视为页面加载完毕。
+-   DOMContentLoaded 会比 Load 时间小，两者时间差大致等于外部资源加载的时间。
+-   Finish：是页面上所有 http 请求发送到响应完成的时间
 
 ### 手写遍历 DOM 树所有节点（非递归）
 
 ### mouseover 和 mouseenter 的区别
 
-- mouseover：当鼠标移入元素或其子元素都会触发事件，所以有一个重复触发，冒泡的过程。对应的移除事件是 mouseout
-- mouseenter：当鼠标移除元素本身（不包含元素的子元素）会触发事件，也就是不会冒泡，对应的移除事件是 mouseleave
+-   mouseover：当鼠标移入元素或其子元素都会触发事件，所以有一个重复触发，冒泡的过程。对应的移除事件是 mouseout
+-   mouseenter：当鼠标移除元素本身（不包含元素的子元素）会触发事件，也就是不会冒泡，对应的移除事件是 mouseleave
 
 ### js 获取各种高度，宽度
 
-- clientHeight
-- offsetHeight
-- scrollHeight
-- clientTop
-- scrollTop
+-   clientHeight
+-   offsetHeight
+-   scrollHeight
+-   clientTop
+-   scrollTop
 
 ### window 的 onload 事件和 domcontent load 谁先谁后？
 
@@ -81,3 +81,5 @@ DOM0 级模型，IE 事件模型，DOM2 级事件模型
 ready：页面的文档结构加载完成，不包括图片视频等非文字内容。 load：所有页面元素都加载完成 ready 的速度比 load 快
 
 ### addEventListener 的第三个参数起到什么作用
+
+### onbeforeunload 事件
