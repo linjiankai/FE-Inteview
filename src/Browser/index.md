@@ -39,8 +39,6 @@ nav:
 
 ### 浏览器缓存 ❤️
 
-### 跨域解决方案，跨域传 cookie 可以使用哪种方法， 表单可以跨域吗？❤️
-
 ### 重绘和重排(回流)的区别
 
 -   当页面中元素样式的改变并不影响它在文档流中的位置时（例如：color、background-color、visibility 等），浏览器会将新样式赋予给元素并重新绘制它，这个过程称为重绘。
@@ -136,3 +134,21 @@ dns 预解析
 [参考](https://juejin.cn/post/6844904082721767431)
 
 ### 浏览器的三级缓存策略了解吗
+
+### 错误监控
+
+1. 前端错误的分类和错误的捕获方式
+    - 即时运行错误的捕获方式： `try...catch`,`window.onerror`
+    - 资源加载错误：`object.onerror`, `performance.getEntries()`, `Error事件捕获`
+2. 上报错误的原理
+    - 采用 Ajax 通信的方式上报
+    - 利用 Image 对象上报（常用方案）  
+      `(new Image()).src = "http://baidu.com.tesjk?r=tksjk"`
+
+### 跨域 js 运行错误可以捕获吗？错误提示什么？应该怎么处理？
+
+可以，控制台报错 Script error
+处理：
+
+1. 在 script 标签添加 crossorigin 属性
+2. 设置 js 资源响应头 Access-Control-Allow-Origin: \*

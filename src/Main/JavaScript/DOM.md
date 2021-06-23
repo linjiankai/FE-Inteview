@@ -83,3 +83,10 @@ ready：页面的文档结构加载完成，不包括图片视频等非文字内
 ### addEventListener 的第三个参数起到什么作用
 
 ### onbeforeunload 事件
+
+### js 获取盒模型对应的宽和高
+
+-   `dom.style.width/height`
+-   `dom.currentStyle.width/height`
+-   `window.getComputedStyle(dom).width/height`
+-   `dom.getBoundingClientRect().width/height`
