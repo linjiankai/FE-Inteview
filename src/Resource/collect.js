@@ -63,17 +63,17 @@ const collect = [
             },
         ],
     },
-    {
-        title: '后台模板',
-        child: [
-            {
-                name: 'Ant Design Pro',
-                icon: 'antDesginReact.svg',
-                desc: '开箱即用的中台前端/设计解决方案',
-                url: 'https://pro.ant.design',
-            },
-        ],
-    },
+    // {
+    //     title: '后台模板',
+    //     child: [
+    //         {
+    //             name: 'Ant Design Pro',
+    //             icon: 'antDesginReact.svg',
+    //             desc: '开箱即用的中台前端/设计解决方案',
+    //             url: 'https://pro.ant.design',
+    //         },
+    //     ],
+    // },
     {
         title: '可视化',
         child: [
