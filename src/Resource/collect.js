@@ -74,17 +74,17 @@ const collect = [
             },
         ],
     },
-    {
-        title: '可视化',
-        child: [
-            {
-                name: 'AntV',
-                icon: 'antv.png',
-                desc: '包含G2/F2/G6等可视化方案的集成',
-                url: 'https://pro.ant.design',
-            },
-        ],
-    },
+    // {
+    //     title: '可视化',
+    //     child: [
+    //         {
+    //             name: 'AntV',
+    //             icon: 'antv.png',
+    //             desc: '包含G2/F2/G6等可视化方案的集成',
+    //             url: 'https://pro.ant.design',
+    //         },
+    //     ],
+    // },
 ];
 
 export default collect;
