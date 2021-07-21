@@ -81,10 +81,9 @@ const collect = [
                 name: 'AntV',
                 icon: 'antv.png',
                 desc: '包含G2/F2/G6等可视化方案的集成',
-                url: 'https://pro.ant.design',
-            },
-        ],
-    },
+            }
+        ]
+    }
 ];
 
 export default collect;
