@@ -56,3 +56,20 @@ nav:
 ### webpack几种hash的实现原理（长缓存）
 
 ### splitChunksPlugin原理
+
+### webpack做过哪些优化，开发效率方面、打包策略方面等等
+优化 Webpack 的构建速度
+- 使用高版本webpack
+- 多线程/多实例构建：HappyPack(不维护了)、thread-loader
+- 缩小打包作用域
+- 充分利用缓存提升二次构建速度：
+- DLL
+优化 Webpack 的打包体积
+- 压缩代码
+- 提取公共资源
+- Tree shaking
+- scope hoisting
+- 图片压缩
+- 动态polyfill
+
+[详解](https://github.com/lgwebdream/FE-Interview/issues/25)

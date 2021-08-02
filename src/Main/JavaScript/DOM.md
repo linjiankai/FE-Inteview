@@ -81,6 +81,7 @@ DOM0 级模型，IE 事件模型，DOM2 级事件模型
 ready：页面的文档结构加载完成，不包括图片视频等非文字内容。 load：所有页面元素都加载完成 ready 的速度比 load 快
 
 ### addEventListener 的第三个参数起到什么作用
+第三个参数涉及到冒泡和捕获，是true时为捕获，是false则为冒泡。
 
 ### onbeforeunload 事件
 
@@ -90,3 +91,9 @@ ready：页面的文档结构加载完成，不包括图片视频等非文字内
 -   `dom.currentStyle.width/height`
 -   `window.getComputedStyle(dom).width/height`
 -   `dom.getBoundingClientRect().width/height`
+
+### 有写过原生的自定义事件吗
+1. Event
+2. customEvent
+3. document.createEvent('CustomEvent')和initEvent()
+
