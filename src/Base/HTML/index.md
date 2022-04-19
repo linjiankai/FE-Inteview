@@ -1,11 +1,6 @@
 ---
-nav:
-    title: Base
-    path: /base
-group:
-    title: HTML
-    path: /html
-    order: 1
+title: HTML
+order: 0
 ---
 
 # HTML
