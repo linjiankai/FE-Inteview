@@ -1,12 +1,6 @@
 ---
 title: 常见问题
-nav:
-    title: Base
-    path: /base
-group:
-    title: 移动端
-    path: /webapp
-    order: 4
+order: 20
 ---
 
 # WebApp

@@ -82,6 +82,8 @@ ready：页面的文档结构加载完成，不包括图片视频等非文字内
 
 ### addEventListener 的第三个参数起到什么作用
 
+第三个参数涉及到冒泡和捕获，是 true 时为捕获，是 false 则为冒泡。
+
 ### onbeforeunload 事件
 
 ### js 获取盒模型对应的宽和高
@@ -90,3 +92,9 @@ ready：页面的文档结构加载完成，不包括图片视频等非文字内
 -   `dom.currentStyle.width/height`
 -   `window.getComputedStyle(dom).width/height`
 -   `dom.getBoundingClientRect().width/height`
+
+### 有写过原生的自定义事件吗
+
+1. Event
+2. customEvent
+3. document.createEvent('CustomEvent')和 initEvent()

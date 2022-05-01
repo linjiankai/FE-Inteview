@@ -61,10 +61,21 @@ nav:
 
 ### splitChunksPlugin 原理
 
-### module chunk bundle 分别什么意思，什么区别
+### webpack 做过哪些优化，开发效率方面、打包策略方面等等
 
-### webpack 如何实现懒加载
+优化 Webpack 的构建速度
 
-### webpack 常见性能优化
+-   使用高版本 webpack
+-   多线程/多实例构建：HappyPack(不维护了)、thread-loader
+-   缩小打包作用域
+-   充分利用缓存提升二次构建速度：
+-   DLL
+    优化 Webpack 的打包体积
+-   压缩代码
+-   提取公共资源
+-   Tree shaking
+-   scope hoisting
+-   图片压缩
+-   动态 polyfill
 
-### babel-runtime 和 babel-polyfill 的区别
+[详解](https://github.com/lgwebdream/FE-Interview/issues/25)
