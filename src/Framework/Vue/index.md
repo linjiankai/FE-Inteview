@@ -10,7 +10,7 @@ group:
     order: 3
 ---
 
-# Vue
+## Vue
 
 [参考](https://juejin.cn/post/6844903918753808398)
 [参考 2](https://juejin.cn/post/6870737289736093710)

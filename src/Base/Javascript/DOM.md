@@ -1,14 +1,6 @@
 ---
 title: DOM
-order: 5
-nav:
-    title: Main
-    path: /main
-    order: 2
-group:
-    title: JavaScript
-    path: /javascript
-    order: 2
+order: 25
 ---
 
 # DOM

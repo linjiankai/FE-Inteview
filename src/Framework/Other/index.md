@@ -9,7 +9,7 @@ group:
     order: 4
 ---
 
-# Other
+## Other
 
 ### react 和 vue 的对比
 
